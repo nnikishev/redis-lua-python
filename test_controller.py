@@ -1,10 +1,8 @@
 import pytest
 import redis
-from redis.commands.core import Script
 from threading import Thread, Lock
 import concurrent.futures
 import time
-from enum import IntEnum
 import sys
 import os
 
@@ -12,7 +10,6 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from redis_controller import ProductStockLogController
-from script import lua_reservation_script
 from enums import ProductAmountCacheResults
 import settings
 
