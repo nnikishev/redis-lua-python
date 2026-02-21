@@ -19,11 +19,13 @@ pip install redis
 ```
 
 # Запуск тестов (только состояния)
+```
 pytest test_controller.py::TestProductStockLogControllerStates -v -s
-
+```
 # Запуск с параллельным выполнением
+```
 pytest test_controller.py -v -s
-
+```
 # Результаты работы
 
 ```powershell
