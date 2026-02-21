@@ -50,3 +50,9 @@ test_controller.py::TestProductStockLogControllerConcurrency::test_race_conditio
   Сумма: 10
 PASSED
 ```
+
+# Источники
+
+Особая благодарность автору статьи на Habr **«Система заказов: решаем проблему конкуренции без очередей»**.
+
+[➡️ Читать статью-первоисточник](https://habr.com/ru/articles/933542/)
